@@ -2,7 +2,7 @@ Array.prototype.flat = function flat() {
   return Array.prototype.concat.apply([], this)
 }
 
-const MAX_ITEMS = 10
+const MAX_ITEMS = 15
 
 cb.settings_choices = [
   {
